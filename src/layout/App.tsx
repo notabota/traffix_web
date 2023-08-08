@@ -113,7 +113,7 @@ export default function App(Pages: ParentCompProps) {
                     </Box>
                     <TextField
                         size="sm"
-                        placeholder="Tìm kiếm mọi thứ..."
+                        placeholder="Find everything."
                         startDecorator={<SearchRoundedIcon color="primary"/>}
                         endDecorator={
                             <IconButton variant="outlined" size="sm" color="neutral">

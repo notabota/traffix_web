@@ -65,7 +65,7 @@ export default function Notifications({db}: DatabaseProps) {
                                             mb: 0.5,
                                         }}
                                     >
-                                        <Typography level="body3">Báo cáo được gửi</Typography>
+                                        <Typography level="body3">Report</Typography>
                                         <Typography level="body3" textColor="text.tertiary">
                                             6 / 4 / 2023
                                         </Typography>
@@ -109,7 +109,7 @@ export default function Notifications({db}: DatabaseProps) {
                                             mb: 0.5,
                                         }}
                                     >
-                                        <Typography level="body3">Thông báo tự động</Typography>
+                                        <Typography level="body3">Notification</Typography>
                                         <Typography level="body3" textColor="text.tertiary">
                                             7 / 4 / 2023
                                         </Typography>

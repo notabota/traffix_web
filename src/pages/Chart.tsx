@@ -37,7 +37,7 @@ export const options = {
     plugins: {
         title: {
             display: true,
-            text: 'Biểu đồ lưu thông tuyến đường Đà Nẵng trong tháng',
+            text: 'Da Nang traffic circulation August 2023',
         },
     },
     scales: {
@@ -141,21 +141,21 @@ export default function App({db}: DatabaseProps) {
         labels: labelTrafficData,
         datasets: [
             {
-                label: 'Phương tiện di chuyển',
+                label: 'Vehicles',
                 data: trafficData['vehicles'],
                 borderColor: 'rgb(255, 99, 132)',
                 backgroundColor: 'rgba(255, 99, 132, 0.5)',
                 yAxisID: 'y',
             },
             {
-                label: 'Ùn tắc giao thông',
+                label: 'Congestion',
                 data: trafficData['congestion'],
                 borderColor: 'rgb(53, 162, 235)',
                 backgroundColor: 'rgba(53, 162, 235, 0.5)',
                 yAxisID: 'y',
             },
             {
-                label: 'Tai nạn',
+                label: 'Accidents',
                 data: trafficData['accidents'],
                 borderColor: 'rgb(13, 122, 235)',
                 backgroundColor: 'rgba(93, 62, 125, 0.5)',

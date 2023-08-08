@@ -41,7 +41,7 @@ export default function Navigation() {
                             letterSpacing: '.1rem',
                         }}
                     >
-                        Trang
+                        Pages
                     </Typography>
                     <IconButton
                         size="sm"
@@ -65,7 +65,7 @@ export default function Navigation() {
                                     <FolderOpenIcon fontSize="small"/>
                                 </ListItemDecorator>
                                 <ListItemContent>
-                                    Trang chủ
+                                    Homepage
                                 </ListItemContent>
 
                             </ListItemButton>
@@ -79,7 +79,7 @@ export default function Navigation() {
                                     <ShareOutlinedIcon fontSize="small"/>
                                 </ListItemDecorator>
                                 <ListItemContent>
-                                    Bản đồ
+                                    Map
                                 </ListItemContent>
                             </ListItemButton>
                         </ListItem>
@@ -91,7 +91,9 @@ export default function Navigation() {
                                 <ListItemDecorator sx={{color: 'neutral.500'}}>
                                     <CircleNotificationsIcon fontSize="small"/>
                                 </ListItemDecorator>
-                                <ListItemContent>Thông báo</ListItemContent>
+                                <ListItemContent>
+                                    Notifications
+                                </ListItemContent>
                             </ListItemButton>
                         </ListItem>
                     </Link>
@@ -102,7 +104,9 @@ export default function Navigation() {
                                 <ListItemDecorator sx={{color: 'neutral.500'}}>
                                     <ReportIcon fontSize="small"/>
                                 </ListItemDecorator>
-                                <ListItemContent>Báo cáo</ListItemContent>
+                                <ListItemContent>
+                                    Reports
+                                </ListItemContent>
                             </ListItemButton>
                         </ListItem>
                     </Link>
@@ -128,7 +132,7 @@ export default function Navigation() {
                             letterSpacing: '.1rem',
                         }}
                     >
-                        Tuyến đường
+                        Streets
                     </Typography>
                     <IconButton
                         size="sm"

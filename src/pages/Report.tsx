@@ -75,10 +75,10 @@ export default function Report({db}: DatabaseProps) {
                 letterSpacing="md"
                 fontWeight="lg"
             >
-                Báo cáo
+                Reporting
             </Typography>
             <Button size="sm" variant="plain" sx={{fontSize: 'xs', px: 1}}>
-                Xoá hết
+                Clear
             </Button>
         </Box>
         <Box sx={{p: 2}}>
@@ -90,7 +90,7 @@ export default function Report({db}: DatabaseProps) {
                 }}
             >
                 <Typography level="body2" textColor="text.primary">
-                    Tiêu đề
+                    Title
                 </Typography>
                 <IconButton
                     size="sm"
@@ -102,7 +102,7 @@ export default function Report({db}: DatabaseProps) {
                 </IconButton>
             </Box>
             <Box sx={{mt: 2}}>
-                <TextField placeholder="Tiêu đề báo cáo của bạn"
+                <TextField placeholder="Title of your report"
                            value={title}
                            onChange={handleTitleChange}/>
                 {/*<Box sx={{mt: 2, display: 'flex', gap: 1}}>*/}
@@ -127,7 +127,7 @@ export default function Report({db}: DatabaseProps) {
                 }}
             >
                 <Typography level="body2" textColor="text.primary">
-                    Tóm tắt
+                    Summary
                 </Typography>
                 <IconButton
                     size="sm"
@@ -139,7 +139,7 @@ export default function Report({db}: DatabaseProps) {
                 </IconButton>
             </Box>
             <Box sx={{mt: 2}}>
-                <TextField placeholder="Tóm tắt báo cáo"
+                <TextField placeholder="Report summary"
                            value={summary}
                            onChange={handleSummaryChange}/>
             </Box>
@@ -154,7 +154,7 @@ export default function Report({db}: DatabaseProps) {
                 }}
             >
                 <Typography level="body2" textColor="text.primary">
-                    Nội dung
+                    Detail
                 </Typography>
                 <IconButton
                     size="sm"
@@ -166,7 +166,7 @@ export default function Report({db}: DatabaseProps) {
                 </IconButton>
             </Box>
             <Box sx={{mt: 2}}>
-                <Textarea placeholder="Nội dung báo cáo" size="lg"
+                <Textarea placeholder="Detail information about what are you reporting" size="lg"
                           value={content}
                           onChange={handleContentChange}/>
             </Box>
@@ -179,7 +179,7 @@ export default function Report({db}: DatabaseProps) {
             }}
         >
             <Typography level="body2" textColor="text.primary">
-                Loại báo cáo
+                Report type
             </Typography>
             <IconButton
                 size="sm"
@@ -194,10 +194,10 @@ export default function Report({db}: DatabaseProps) {
             <RadioGroup name="education" defaultValue="any"
                         value={type}
                         onChange={handleTypeChange}>
-                <Radio label="Tai nạn" value="accidents" size="sm"/>
-                <Radio label="Vi phạm" value="violations" size="sm"/>
-                <Radio label="Ùn tắc" value="congestion" size="sm"/>
-                <Radio label="Khác" value="else" size="sm"/>
+                <Radio label="Accidents" value="accidents" size="sm"/>
+                <Radio label="Violations" value="violations" size="sm"/>
+                <Radio label="Congestion" value="congestion" size="sm"/>
+                <Radio label="Misc" value="misc" size="sm"/>
             </RadioGroup>
         </Box>
     </Box><ListDivider component="hr"/><Box sx={{p: 2}}>
@@ -216,7 +216,7 @@ export default function Report({db}: DatabaseProps) {
                 color="primary"
                 onClick={sendReport}
             >
-                Gửi báo cáo
+                Send the report
             </Button>
         </Box>
     </Box>

@@ -41,7 +41,7 @@ export default function Navigation() {
                             letterSpacing: '.1rem',
                         }}
                     >
-                        Trang
+                        Pages
                     </Typography>
                     <IconButton
                         size="sm"
@@ -65,7 +65,7 @@ export default function Navigation() {
                                     <FolderOpenIcon fontSize="small"/>
                                 </ListItemDecorator>
                                 <ListItemContent>
-                                    Trang chủ
+                                    Homepage
                                 </ListItemContent>
 
                             </ListItemButton>
@@ -78,7 +78,7 @@ export default function Navigation() {
                                 <ListItemDecorator sx={{color: 'neutral.500'}}>
                                     <StackedLineChartIcon fontSize="small"/>
                                 </ListItemDecorator>
-                                <ListItemContent>Dữ liệu</ListItemContent>
+                                <ListItemContent>Data</ListItemContent>
                             </ListItemButton>
                         </ListItem>
                     </Link>

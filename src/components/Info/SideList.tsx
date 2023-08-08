@@ -37,8 +37,8 @@ export default function SideList() {
                         sx={{borderRadius: 'sm'}}
                     />
                     <Box>
-                        <Typography> Tắc nghẽn </Typography>
-                        <Typography level="body3">Hôm qua lúc 14h22</Typography>
+                        <Typography> Congestion </Typography>
+                        <Typography level="body3">14:22 yesterday</Typography>
                     </Box>
                 </Box>
                 <ListDivider component="div" sx={{my: 1}}/>
@@ -47,7 +47,7 @@ export default function SideList() {
                     variant="plain"
                     sx={{px: 1}}
                 >
-                    Chi tiết
+                    Detail
                 </Button>
             </Sheet>
             <Sheet
@@ -66,8 +66,8 @@ export default function SideList() {
                         sx={{borderRadius: 'sm'}}
                     />
                     <Box>
-                        <Typography> Tai nạn </Typography>
-                        <Typography level="body3">Hôm qua lúc 14h07</Typography>
+                        <Typography> Accident </Typography>
+                        <Typography level="body3">14:07 yesterday</Typography>
                     </Box>
                 </Box>
                 <ListDivider component="div" sx={{my: 1}}/>
@@ -76,7 +76,7 @@ export default function SideList() {
                     variant="plain"
                     sx={{px: 1}}
                 >
-                    Chi tiết
+                    Detail
                 </Button>
             </Sheet>
         </List>

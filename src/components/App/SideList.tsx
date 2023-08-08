@@ -37,8 +37,8 @@ export default function SideList() {
                         sx={{borderRadius: 'sm'}}
                     />
                     <Box>
-                        <Typography>Đường Ngô Quyền</Typography>
-                        <Typography level="body3">Quá tải</Typography>
+                        <Typography>Ngô Quyền Street</Typography>
+                        <Typography level="body3">Congesting</Typography>
                     </Box>
                 </Box>
                 <ListDivider component="div" sx={{my: 2}}/>
@@ -63,9 +63,9 @@ export default function SideList() {
                             />
                         </ListItemDecorator>
                         <ListItemContent>
-                            <Typography level="body2">Kẹt đường vì chen lấn</Typography>
+                            <Typography level="body2">High density of vehicles</Typography>
                         </ListItemContent>
-                        <Typography level="body2">17:43 hôm qua</Typography>
+                        <Typography level="body2">17:43 yesterday</Typography>
                     </ListItem>
                     <ListItem sx={{alignItems: 'flex-start'}}>
                         <ListItemDecorator>
@@ -75,9 +75,9 @@ export default function SideList() {
                             />
                         </ListItemDecorator>
                         <ListItemContent>
-                            <Typography level="body2">Giờ cao điểm Container</Typography>
+                            <Typography level="body2">Peak hour</Typography>
                         </ListItemContent>
-                        <Typography level="body2">8:00 hôm qua</Typography>
+                        <Typography level="body2">8:00 yesterday</Typography>
                     </ListItem>
                 </List>
                 <Button
@@ -85,10 +85,10 @@ export default function SideList() {
                     variant="plain"
                     sx={{px: 1, mt: 1}}
                 >
-                    Chi tiết
+                    Details
                 </Button>
                 <ListDivider component="div" sx={{my: 2}}/>
-                <Typography fontSize="sm">Thẻ:</Typography>
+                <Typography fontSize="sm">Tag:</Typography>
                 <Box sx={{mt: 1.5, display: 'flex', gap: 1}}>
                     <Chip
                         variant="outlined"
@@ -104,7 +104,7 @@ export default function SideList() {
                         size="sm"
                         sx={{borderRadius: 'sm'}}
                     >
-                        Tuyến đường trọng điểm
+                        Major street
                     </Chip>
                 </Box>
             </Sheet>
@@ -124,8 +124,8 @@ export default function SideList() {
                         sx={{borderRadius: 'sm'}}
                     />
                     <Box>
-                        <Typography>Đường Võ Nguyên Giáp</Typography>
-                        <Typography level="body3">Thông thoáng</Typography>
+                        <Typography> Võ Nguyên Giáp Street </Typography>
+                        <Typography level="body3">Free-flowing</Typography>
                     </Box>
                 </Box>
                 <ListDivider component="div" sx={{my: 2}}/>
@@ -174,10 +174,10 @@ export default function SideList() {
                     variant="plain"
                     sx={{px: 1, mt: 1}}
                 >
-                    Chi tiết
+                    Details
                 </Button>
                 <ListDivider component="div" sx={{my: 2}}/>
-                <Typography fontSize="sm">Thẻ:</Typography>
+                <Typography fontSize="sm">Tag:</Typography>
                 <Box sx={{mt: 1.5, display: 'flex', gap: 1}}>
                     <Chip
                         variant="outlined"
@@ -193,7 +193,7 @@ export default function SideList() {
                         size="sm"
                         sx={{borderRadius: 'sm'}}
                     >
-                        Ven biển
+                        Coast
                     </Chip>
                 </Box>
             </Sheet>

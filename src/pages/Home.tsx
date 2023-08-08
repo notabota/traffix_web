@@ -40,7 +40,7 @@ const options1 = {
         },
         title: {
             display: true,
-            text: 'Khu vực cầu Rồng',
+            text: 'Dragon Bridge',
         },
     },
 };
@@ -53,7 +53,7 @@ const options2 = {
         },
         title: {
             display: true,
-            text: 'Khu vực cầu sông Hàn',
+            text: 'Han River Bridge',
         },
     },
 };
@@ -156,16 +156,16 @@ export default function () {
                     }}
                 >
                     <Typography level="body3" fontWeight="md" noWrap>
-                        Tuyến đường trọng điểm gần đây
+                        Major street nearby
                     </Typography>
                     <Typography level="body3" fontWeight="md" noWrap>
-                        Cập nhật mới nhất
+                        New update
                     </Typography>
                     <Typography level="body3" fontWeight="md" noWrap>
-                        Tình trạng
+                        Status
                     </Typography>
                     <Typography level="body3" fontWeight="md" noWrap>
-                        Chỉ dẫn bản đồ
+                        Map direction
                     </Typography>
 
                     <Typography
@@ -177,7 +177,7 @@ export default function () {
                     </Typography>
                     <Typography level="body2">12 / 4 / 2023 - 14 : 25 : 22</Typography>
                     <Typography level="body2" sx={{color: 'success.600'}}>
-                        Thông thoáng
+                        Free-flowing
                     </Typography>
                     <Box>
 
@@ -192,7 +192,7 @@ export default function () {
                     </Typography>
                     <Typography level="body2">12 / 4 / 2023 - 21 : 07 : 05 </Typography>
                     <Typography level="body2" sx={{color: 'success.600'}}>
-                        Giờ cao điểm
+                        Peak hour
                     </Typography>
                     <Box>
 
@@ -309,15 +309,15 @@ export default function () {
                                     color: 'primary.plainColor',
                                 }}
                             >
-                                Bảo trì
+                                Maintaining
                             </Typography>
                         </AspectRatio>
                     </CardOverflow>
                     <Box sx={{pt: 2, display: 'flex', alignItems: 'center'}}>
                         <Box sx={{flex: 1}}>
-                            <Typography>Quảng trường</Typography>
+                            <Typography>Square</Typography>
                             <Typography level="body3" mt={0.5}>
-                                Tạm dừng
+                                Closed
                             </Typography>
                         </Box>
                         <IconButton variant="plain" color="neutral">
