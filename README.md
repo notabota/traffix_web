@@ -221,19 +221,22 @@ simply open an issue with the tag "enhancement".
 [//]: # (## License)
 
 [//]: # ()
+
 [//]: # (<p style="text-align: right;"><a href="#readme-top">back to top</a></p>)
 
 [//]: # ()
+
 [//]: # (<!-- CONTACT -->)
 
 ## Contact
 
 Nguyễn Nguyên Vũ
 
-* Gmail - nnv2205owo@gmail.com
-* [Facebook](https://www.facebook.com/nnv2205owo/) - facebook.com/nnv2205owo
-* [LinkedIn](https://www.linkedin.com/in/nnv2205owo/) - linkedin.com/in/nnv2205owo
-* [Upwork](https://www.upwork.com/freelancers/~012078434f80806fe1) - upwork.com/freelancers/~012078434f80806fe1
+* [![Gmail][gmail]]() - **nnv2205owo@gmail.com**
+* [![Facebook][facebook]](https://www.facebook.com/nnv2205owo/) - **facebook.com/nnv2205owo**
+* [![LinkedIn][linkedin]](https://www.linkedin.com/in/nnv2205owo/) - **linkedin.com/in/nnv2205owo**
+* [![Upwork][upwork]](https://www.upwork.com/freelancers/~012078434f80806fe1) - **upwork.com/freelancers/~
+  012078434f80806fe1**
 
 Project Link: [https://github.com/notabota/traffix_web](https://github.com/notabota/traffix_web)
 
@@ -244,11 +247,13 @@ Project Link: [https://github.com/notabota/traffix_web](https://github.com/notab
 [//]: # (## Acknowledgments)
 
 [//]: # ()
+
 [//]: # (Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites)
 
 [//]: # (to kick things off!)
 
 [//]: # ()
+
 [//]: # (* [Choose an Open Source License]&#40;https://choosealicense.com&#41;)
 
 [//]: # (* [GitHub Emoji Cheat Sheet]&#40;https://www.webpagefx.com/tools/emoji-cheat-sheet&#41;)
@@ -265,11 +270,9 @@ Project Link: [https://github.com/notabota/traffix_web](https://github.com/notab
 
 [//]: # (* [React Icons]&#40;https://react-icons.github.io/react-icons/search&#41;)
 
-<p style="text-align: right;"><a href="#readme-top">back to top</a></p>
+[//]: # (<p style="text-align: right;"><a href="#readme-top">back to top</a></p>)
 
 <!-- MARKDOWN LINKS & IMAGES -->
-
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [MUI]: https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white
 
@@ -311,4 +314,12 @@ Project Link: [https://github.com/notabota/traffix_web](https://github.com/notab
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/nnv2205owo
+
+[facebook]: https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white
+
+[gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+
+[linkedin]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+
+[upwork]: https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white
