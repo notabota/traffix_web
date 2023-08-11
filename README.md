@@ -1,46 +1,17 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/notabota/traffix_web/pull/73 -->
-
 <a name="readme-top"></a>
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
 
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/notabota/traffix_web">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a> -->
-
 <h3 align="center">Traffix Web Client</h3>
 
 <p align="center">
     A web server that associated with the <strong> Traffix </strong> traffic management, allow user to observe and interact with the city transit network
-    <!-- <br />
-    <a href="https://github.com/notabota/traffix_web"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
     <a href="https://github.com/notabota/traffix_web">View Demo</a>
@@ -72,17 +43,13 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <!-- <li><a href="#license">License</a></li> -->
     <li><a href="#contact">Contact</a></li>
-    <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 This website is a part of the **Traffix - Traffic Management System**. It provide the client the ability to monitor the
 congestion activities on the local map, watch real-time object detection camera, get updated notifications about events
@@ -94,8 +61,6 @@ Main functionality:
 * Real-time camera view, include object detection.
 * Notifications and report
 * Visualized information pages with graph and chart
-
-<!-- Use the `BLANK_README.md` to get started. -->
 
 <p style="text-align: right;"><a href="#readme-top">back to top</a></p>
 
@@ -216,18 +181,6 @@ simply open an issue with the tag "enhancement".
 
 <p style="text-align: right;"><a href="#readme-top">back to top</a></p>
 
-[//]: # (<!-- LICENSE -->)
-
-[//]: # (## License)
-
-[//]: # ()
-
-[//]: # (<p style="text-align: right;"><a href="#readme-top">back to top</a></p>)
-
-[//]: # ()
-
-[//]: # (<!-- CONTACT -->)
-
 ## Contact
 
 Nguyễn Nguyên Vũ
@@ -241,36 +194,6 @@ Nguyễn Nguyên Vũ
 Project Link: [https://github.com/notabota/traffix_web](https://github.com/notabota/traffix_web)
 
 <p style="text-align: right;"><a href="#readme-top">back to top</a></p>
-
-[//]: # (<!-- ACKNOWLEDGMENTS -->)
-
-[//]: # (## Acknowledgments)
-
-[//]: # ()
-
-[//]: # (Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites)
-
-[//]: # (to kick things off!)
-
-[//]: # ()
-
-[//]: # (* [Choose an Open Source License]&#40;https://choosealicense.com&#41;)
-
-[//]: # (* [GitHub Emoji Cheat Sheet]&#40;https://www.webpagefx.com/tools/emoji-cheat-sheet&#41;)
-
-[//]: # (* [Malven's Flexbox Cheatsheet]&#40;https://flexbox.malven.co/&#41;)
-
-[//]: # (* [Malven's Grid Cheatsheet]&#40;https://grid.malven.co/&#41;)
-
-[//]: # (* [Img Shields]&#40;https://shields.io&#41;)
-
-[//]: # (* [GitHub Pages]&#40;https://pages.github.com&#41;)
-
-[//]: # (* [Font Awesome]&#40;https://fontawesome.com&#41;)
-
-[//]: # (* [React Icons]&#40;https://react-icons.github.io/react-icons/search&#41;)
-
-[//]: # (<p style="text-align: right;"><a href="#readme-top">back to top</a></p>)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
@@ -292,23 +215,23 @@ Project Link: [https://github.com/notabota/traffix_web](https://github.com/notab
 
 [Leaflet-url]: https://leafletjs.com/
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/notabota/traffix_web.svg?style=for-the-badge
 
 [contributors-url]: https://github.com/notabota/traffix_web/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/notabota/traffix_web.svg?style=for-the-badge
 
 [forks-url]: https://github.com/notabota/traffix_web/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/notabota/traffix_web.svg?style=for-the-badge
 
 [stars-url]: https://github.com/notabota/traffix_web/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/notabota/traffix_web.svg?style=for-the-badge
 
 [issues-url]: https://github.com/notabota/traffix_web/issues
 
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/notabota/traffix_web.svg?style=for-the-badge
 
 [license-url]: https://github.com/notabota/traffix_web/blob/master/LICENSE.txt
 
